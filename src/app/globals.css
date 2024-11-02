@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  src: url('./fonts/Montserrat-Medium.ttf');
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: 'Montserrat';
+}
+
+.form-shadow {
+  box-shadow: 0px 1px 4px 0px rgba(33, 33, 33, 0.08);
+}
